@@ -4,10 +4,6 @@ import { useTranslation } from 'react-i18next';
 const News = () => {
     const [t, i18n] = useTranslation('global');
 
-    const handleChangeLanguage = (lang) => {
-        i18n.changeLanguage(lang);
-    };
-
     return (
         <div id='news' className='section section-news'>
             <div className='news-container'>
