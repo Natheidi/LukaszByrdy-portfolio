@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import Swiper from '../Swiper/Swiper';
 
 const Media = () => {
-    const [t, i18n] = useTranslation('global');
+    const [t] = useTranslation('global');
 
     return (
         <div id='media' className='section'>

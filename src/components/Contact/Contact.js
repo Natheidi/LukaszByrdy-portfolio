@@ -6,7 +6,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 
 const Contact = () => {
-    const [t, i18n] = useTranslation('global');
+    const [t] = useTranslation('global');
 
     return (
         <div id='contact' className='section contact-section'>

@@ -6,7 +6,7 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Hero = () => {
-    const [t, i18n] = useTranslation('global');
+    const [t] = useTranslation('global');
 
     return (
         <div id='hero-section' className='hero-section'>
