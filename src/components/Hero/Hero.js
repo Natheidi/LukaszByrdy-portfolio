@@ -15,7 +15,7 @@ const Hero = () => {
     return (
         <div id='hero-section' className='hero-section'>
             <div className='hero-container'>
-                <h1 className='hero-h1'>
+                <h1 className='hero-h1-section'>
                     {t('header.h1')}
                 </h1>
                 <h2 className='hero-h2'>

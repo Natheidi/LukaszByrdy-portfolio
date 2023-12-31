@@ -78,6 +78,7 @@
 .text-c2 {
     color: #c0c0c0;
     padding-top: 30px;
+    font-weight: 500px;
 }
 
 .altra-volta {
@@ -92,7 +93,7 @@
     display: block;
     font-family: "Roboto";
     color: #c0c0c0;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 18px;
 }
 
@@ -136,5 +137,26 @@
 
 .line{
    width: 100%;
+}
+
+@media (max-width: 700px){
+    .disc-container{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .text-c{
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .audio-small-section{
+        text-align: center;
+    }
+    .h-title{
+        font-size: 20px;
+    }
 }
 
