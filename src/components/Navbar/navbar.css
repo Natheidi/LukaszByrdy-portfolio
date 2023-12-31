@@ -3,7 +3,7 @@
   overflow: hidden;
   box-sizing: border-box;
   position: -webkit-sticky;
-  position: sticky!important;
+  position: sticky !important;
   top: 0;
   z-index: 100;
   font-size: 16px;
@@ -16,6 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 48px;
 }
 
 .nav ul {
@@ -48,6 +49,7 @@
 
 .logo {
   width: 150px;
+
 }
 
 .btn-lang {
@@ -75,7 +77,52 @@
   background-color: #f0f0f0;
 }
 
-
-/* .nav {
+/* Hide the links inside the navigation menu (except for logo/home) */
+/* .nav-section .nav-items {
   display: none;
 } */
+
+.nav-section .hamburger-menu {
+  color: #9b793e;
+  background: #fff;
+  display: block;
+  position: absolute;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  right: 0;
+  top: 0;
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .nav-section .hamburger-menu {
+    display: block;
+  }
+
+  .nav ul {
+    display: none;
+  }
+
+ .btn-lang:last-child {
+  margin-right: 15px;
+ }
+
+ .btn-lang {
+ 
+ }
+
+  .nav-section {
+    width: 90%;
+  }
+
+  .nav-items {
+    width: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0;
+    padding-top: 13px;
+  }
+}

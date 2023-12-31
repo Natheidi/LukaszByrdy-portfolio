@@ -12,22 +12,22 @@
     justify-content: center;
 }
 
-.hero-container{
+.hero-container {
     width: 70%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
-.hero-h1{
+.hero-h1 {
     font-size: 110px;
     font-weight: 100;
     margin-top: 100px;
     margin-bottom: 0;
-   
+
 }
 
-.hero-h2{
+.hero-h2 {
     font-size: 60px;
     font-weight: 300;
     font-style: italic;
@@ -37,64 +37,68 @@
     color: #9b793e;
 }
 
-.font-icon{
+.font-icon {
     font-size: 30px;
     color: #fff;
 }
 
-.insta{
+.insta {
     color: #fff;
 }
 
-.icon-container{
+.icon-container {
     display: flex;
     flex-direction: row;
 }
 
-.icon-container a:visited{
+.icon-container a:visited {
     color: #fff;
 }
 
-.icon-style{
+.icon-style {
     font-size: 30px;
     margin: 10px;
     transition: 0.3s ease-in-out;
 }
 
-.icon-style:hover{
-   color: #9b793e;
-   cursor: pointer;
+.icon-style:hover {
+    color: #9b793e;
+    cursor: pointer;
 }
 
-.icon-style-btn{
+.icon-style-btn {
     font-size: 12px;
 }
 
 @media (max-width: 1000px) {
-    .hero-h1{
-      font-size: 80px;
+    .hero-h1 {
+        font-size: 80px;
     }
 
-    .hero-h2{
+    .hero-h2 {
         font-size: 40px;
     }
 
-    .font-icon{
+    .font-icon {
         font-size: 20px;
     }
-  }
+}
 
-  @media (max-width: 700px) {
-    .hero-h1{
+@media (max-width: 700px) {
+    .hero-section {
+        background-position: -600px;
+    }
+
+    .hero-h1 {
         font-size: 40px;
     }
 
-    .hero-h2{
+    .hero-h2 {
         font-size: 20px;
     }
 
-    .font-icon{
+    .font-icon {
         font-size: 14px;
     }
 
-  }
+}

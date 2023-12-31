@@ -17,3 +17,15 @@
     color: #c0c0c0;
     font-style: italic;
 }
+
+.yt-video{
+    max-width: 800px;
+    height: 600px;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .yt-video{
+        height: 400px;
+    }
+}

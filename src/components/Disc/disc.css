@@ -52,12 +52,14 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .cd-img {
-    width: 500px;
+    max-width: 500px;
     padding-bottom: 10px;
     display: block;
+    width: 100%;
 }
 
 .text-c {
@@ -133,6 +135,6 @@
 }
 
 .line{
-    width: 700px;
+   width: 100%;
 }
 
