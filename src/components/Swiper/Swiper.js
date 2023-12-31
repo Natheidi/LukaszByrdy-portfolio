@@ -1,4 +1,6 @@
-import { Navigation, A11y } from 'swiper/modules';
+import { useTranslation } from 'react-i18next';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -6,7 +8,7 @@ import 'swiper/css';
 import './swiper.css';
 import 'swiper/css/navigation';
 
-const SwiperComponent = () => {
+export default () => {
     return (
         <Swiper
             // install Swiper modules
@@ -48,5 +50,3 @@ const SwiperComponent = () => {
         </Swiper>
     );
 };
-
-export default SwiperComponent;

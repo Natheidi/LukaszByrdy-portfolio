@@ -6,7 +6,11 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Hero = () => {
-    const [t] = useTranslation('global');
+    const [t, i18n] = useTranslation('global');
+
+    const handleChangeLanguage = (lang) => {
+        i18n.changeLanguage(lang);
+    };
 
     return (
         <div id='hero-section' className='hero-section'>
@@ -18,9 +22,9 @@ const Hero = () => {
                     {t('header.h2')}
                 </h2>
                 <div className='icon-container'>
-                    <a href='https://www.facebook.com/lukaszbyrdy' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faFacebook} className='icon-style' /></a>
-                    <a href='https://www.youtube.com/@ukaszbyrdy9055' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faYoutube} className='icon-style'></FontAwesomeIcon></a>
-                    <a href='https://www.instagram.com/lukaszbyrdy/' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faInstagram} className='icon-style insta'></FontAwesomeIcon></a>
+                    <a href='https://www.facebook.com/lukaszbyrdy' target='_blank'><FontAwesomeIcon icon={faFacebook} className='icon-style' /></a>
+                    <a href='https://www.youtube.com/@ukaszbyrdy9055' target='_blank'><FontAwesomeIcon icon={faYoutube} className='icon-style'></FontAwesomeIcon></a>
+                    <a href='https://www.instagram.com/lukaszbyrdy/' target='_blank'><FontAwesomeIcon icon={faInstagram} className='icon-style insta'></FontAwesomeIcon></a>
                 </div>
             </div>
         </div>
