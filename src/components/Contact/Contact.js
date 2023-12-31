@@ -6,11 +6,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 
 const Contact = () => {
-    const [t, i18n] = useTranslation('global');
-
-    const handleChangeLanguage = (lang) => {
-        i18n.changeLanguage(lang);
-    };
+    const [t] = useTranslation('global');
 
     return (
         <div id='contact' className='section contact-section'>
@@ -22,7 +18,7 @@ const Contact = () => {
                     {t('contact.impresario')}
                 </h4>
                 <div className='contact-box'>
-                    <img className='contact-img' src={require('../../assets/img/karolina.jpg')} alt='image, portrait' />
+                    <img className='contact-img' src={require('../../assets/img/karolina.jpg')} alt='portrait' />
                     <h3 className='contact-h'>
                         Karolina Kłosowska
                     </h3>

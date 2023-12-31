@@ -67,9 +67,9 @@ const Navbar = () => {
                         <button className='btn-lang' onClick={() => handleChangeLanguage("de")}>DE</button>
                     </div>
                 </ul>
-                <a href="javascript:void(0);" class="hamburger-menu" onClick={() => toggleHamburgerMenu()}>
+                <button class="hamburger-menu" onClick={() => toggleHamburgerMenu()}>
                     <FontAwesomeIcon icon={faBars} className='hamburger-icon' />
-                </a>
+                </button>
             </div>
         </div>
 

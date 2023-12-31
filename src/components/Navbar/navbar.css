@@ -99,6 +99,7 @@
 @media (max-width: 1300px) {
   .nav-section .hamburger-menu {
     display: block;
+    border: none;
   }
 
   .nav ul {

@@ -1,11 +1,7 @@
 import './disc.css'
 import { useTranslation } from 'react-i18next';
 const Disc = () => {
-    const [t, i18n] = useTranslation('global');
-
-    const handleChangeLanguage = (lang) => {
-        i18n.changeLanguage(lang);
-    };
+    const [t] = useTranslation('global');
 
     return (
         <div id='disc' className='section'>
@@ -15,8 +11,8 @@ const Disc = () => {
                 </h3>
                 <div className='cd-flex'>
                     <div className='cd-container'>
-                        <img className='cd-img' src={require('../../assets/img/cd.jpg')} alt='image, cd' />
-                        <img className='cd-img' src={require('../../assets/img/cd2.jpg')} alt='image, cd' />
+                        <img className='cd-img' src={require('../../assets/img/cd.jpg')} alt='cd'/>
+                        <img className='cd-img' src={require('../../assets/img/cd2.jpg')} alt='cd' />
                     </div>
                     <div className='text-c'>
                         {t('disc.cd-text')}

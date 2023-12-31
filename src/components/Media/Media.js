@@ -1,14 +1,9 @@
 import './media.css'
 import { useTranslation } from 'react-i18next';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import Swiper from '../Swiper/Swiper';
+import SwiperComponent from '../Swiper/Swiper';
 
 const Media = () => {
-    const [t, i18n] = useTranslation('global');
-
-    const handleChangeLanguage = (lang) => {
-        i18n.changeLanguage(lang);
-    };
+    const [t] = useTranslation('global');
 
     return (
         <div id='media' className='section'>
@@ -18,7 +13,7 @@ const Media = () => {
                 </h3>
 
             </div>
-            <Swiper className = 'swiper' />
+            <SwiperComponent className = 'swiper' />
         </div>
 
     )
