@@ -49,17 +49,17 @@ const Disc = () => {
                     <hr className='line'></hr>
                     <div className='audio-small-section'>
                         <h4 className='title-playlist2'>FRYDERYK CHOPIN –  PIANO CONCERTO IN F MINOR, OP. 21</h4>
-                        <p className='audio-text'>04 CHOPIN</p>
+                        <p className='audio-text'>CHOPIN IV</p>
                         <audio controls className='audio-clips'>
                             <source src={require('../../assets/audio/04_CHOPIN_f-moll_Koncert1.mp3')} type="audio/mpeg" />
 
                         </audio>
-                        <p className='audio-text'>05 CHOPIN</p>
+                        <p className='audio-text'>CHOPIN V</p>
                         <audio controls className='audio-clips'>
                             <source src={require('../../assets/audio/05_CHOPIN_f-moll_Koncert2.mp3')} type="audio/mpeg" />
 
                         </audio>
-                        <p className='audio-text'>06 CHOPIN</p>
+                        <p className='audio-text'>CHOPIN VI</p>
                         <audio controls className='audio-clips'>
                             <source src={require('../../assets/audio/06_CHOPIN_f-moll_Koncert3.mp3')} type="audio/mpeg" />
 
