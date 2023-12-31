@@ -116,4 +116,8 @@
     .contact-h {
         font-size: 15px;
     }
+
+    .contact-container{
+        padding-bottom: 30px;
+    }
 }
