@@ -6,7 +6,7 @@ const Disc = () => {
     return (
         <div id='disc' className='section'>
             <div className='disc-container'>
-                <h3 className='h-title'>
+                <h3 className='h-title-disc'>
                     {t('disc.h3-tt')}
                 </h3>
                 <div className='cd-flex'>

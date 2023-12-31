@@ -16,7 +16,7 @@
 
 }
 
-.h-title {
+.h-title-disc {
     font-size: 70px;
     font-weight: 100;
     position: relative;
@@ -24,9 +24,10 @@
     color: #fff;
     margin: 0;
     margin-bottom: 70px;
+    font-family: "PerpetuaTitlingMTLight2";
 }
 
-.h-title::after {
+.h-title-disc::after {
     display: block;
     position: absolute;
     bottom: 0;
@@ -139,6 +140,13 @@
    width: 100%;
 }
 
+@media (max-width: 1000px){
+   .h-title-disc{
+    font-size: 60px;
+    margin-top: 50px;
+   }
+}
+
 @media (max-width: 700px){
     .disc-container{
         justify-content: center;
@@ -155,8 +163,39 @@
     .audio-small-section{
         text-align: center;
     }
-    .h-title{
-        font-size: 20px;
+
+    .cd-container{
+        padding-top: 10px;
     }
+
+    .title-playlist{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .title-playlist2{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .audio-text{
+        text-align: center;
+    }
+
+   .audio-clips{
+    width: 90%;
+   }
 }
+
+@media (max-width: 500px) {
+    .h-title-disc{
+        font-size: 30px;
+    }
+
+    .h-title-disc::after{
+        width: 40px;
+        height: 40px;
+    }
+  }
+
 

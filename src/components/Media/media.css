@@ -7,16 +7,17 @@
     margin-left: auto;
 }
 
-.h-title{
+.h-title-media{
     font-size: 70px;
     font-weight: 100;
     position: relative;
     z-index: 1;
     color: #fff;
     padding-top: 70px;
+    font-family: "PerpetuaTitlingMTLight2";
 }
 
-.h-title::after{
+.h-title-media::after{
   display: block;
   position: absolute;
   bottom: 0;
@@ -38,9 +39,37 @@
   margin-bottom: 0;
 }
 
+@media (max-width: 1000px) {
+  .h-title-media{
+    font-size: 60px;
+    margin-top: 50px;
+}
+}
+
 @media (max-width:700px) {
   .media-container{
     justify-content: center;
     align-items: center;
   }
+
+  .h-title-media{
+    padding-top: 10px;
+  }
+
+  .swiper{
+    margin-bottom: 0;
+    padding: 30px!important;
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .h-title-media{
+    font-size: 30px;
+  }
+
+  .h-title-media::after{
+    width: 40px;
+    height: 40px;
+}
 }

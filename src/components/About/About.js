@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div id='about-section' className='main about-section'>
             <div className='about-container'>
-                <h3 className='h-title'>
+                <h3 className='h-title3'>
                     {t('about.h3')}
                 </h3>
                 <div className='img-container'>

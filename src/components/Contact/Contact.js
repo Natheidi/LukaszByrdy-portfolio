@@ -11,7 +11,7 @@ const Contact = () => {
     return (
         <div id='contact' className='section contact-section'>
             <div className='contact-container'>
-                <h3 className='h-title'>
+                <h3 className='h-title-contact'>
                     {t('contact.h3-text')}
                 </h3>
                 <h4 className='title-contact'>

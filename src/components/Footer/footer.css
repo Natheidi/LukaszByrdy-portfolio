@@ -8,3 +8,9 @@
     font-size: 14px;
     color: #c0c0c0;
 }
+
+@media (max-width: 500px) {
+    .footer{
+        font-size: 10px;
+    }
+}

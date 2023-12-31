@@ -15,7 +15,7 @@
   margin-left: auto;
 }
 
-.h-title {
+.h-title-news {
   font-size: 70px;
   font-weight: 100;
   position: relative;
@@ -23,9 +23,10 @@
   color: #fff;
   margin: 0;
   padding-top: 70px;
+  font-family: "PerpetuaTitlingMTLight2";
 }
 
-.h-title::after {
+.h-title-news::after {
   display: block;
   position: absolute;
   bottom: 0;
@@ -53,9 +54,36 @@
   opacity: 0.5;
 }
 
+@media (max-width: 1000px) {
+  .h-title-news {
+    margin-top: 50px;
+    font-size: 60px;
+  }
+
+}
+
 @media (max-width: 700px) {
   .news-container {
     justify-content: center;
     align-items: center;
   }
+
+  .info {
+    font-size: 14px;
+  }
+
+  .news-container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .h-title-news{
+    font-size: 30px;
+}
+
+.h-title-news::after{
+    width: 40px;
+    height: 40px;
+}
 }

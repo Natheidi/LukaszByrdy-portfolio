@@ -19,15 +19,16 @@
     padding-top: 70px;
 }
 
-.h-title {
+.h-title-contact {
     font-size: 70px;
     font-weight: 100;
     position: relative;
     z-index: 1;
     color: #fff;
+    font-family: "PerpetuaTitlingMTLight2";
 }
 
-.h-title::after {
+.h-title-contact::after {
     display: block;
     position: absolute;
     bottom: 0;
@@ -92,4 +93,27 @@
         align-items: center;
     }
 
+}
+
+@media (max-width: 500px) {
+    .h-title-contact {
+        font-size: 30px;
+    }
+
+    .h-title-contact::after {
+        width: 40px;
+        height: 40px;
+    }
+
+    .title-contact {
+        font: 20px;
+    }
+
+    .contact-p {
+        font-size: 10px;
+    }
+
+    .contact-h {
+        font-size: 15px;
+    }
 }

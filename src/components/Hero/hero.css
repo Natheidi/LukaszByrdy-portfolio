@@ -111,3 +111,12 @@
     }
 
 }
+
+@media (max-width: 400px){
+    .hero-section {
+        background-position-x: -700px;
+        background-position-y: 400px;
+        max-height: 400px;
+
+    }
+}

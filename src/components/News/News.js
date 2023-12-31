@@ -7,7 +7,7 @@ const News = () => {
     return (
         <div id='news' className='section section-news'>
             <div className='news-container'>
-                <h3 className='h-title'>
+                <h3 className='h-title-news'>
                     {t('news.h3-title')}
                 </h3>
                 <h4 className='info'>

@@ -8,7 +8,7 @@ const Media = () => {
     return (
         <div id='media' className='section'>
             <div className='media-container'>
-                <h3 className='h-title'>
+                <h3 className='h-title-media'>
                     {t('media.h3-t')}
                 </h3>
 
