@@ -51,7 +51,7 @@
     flex-direction: row;
 }
 
-.icon-container a:visited {
+.icon-container a {
     color: #fff;
 }
 
