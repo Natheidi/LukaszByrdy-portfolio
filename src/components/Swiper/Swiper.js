@@ -19,19 +19,7 @@ const SwiperComponent = () => {
             onSlideChange={() => console.log('slide change')}
         >
 
-            <SwiperSlide>
-                <iframe className='yt-video'
-                    src="https://www.youtube.com/watch?v=K99aZ2or1pA"
-                    title="Koncert"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                <p className='video-text'>F. Chopin - Piano Concerto no. 2 in F minor op.21</p>
-            </SwiperSlide>
-            <SwiperSlide>
-            <iframe className='yt-video' src="https://www.youtube.com/watch?v=HNgcAvSQj3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p className='video-text'>Chopin - Etude in C sharp minor op.25 no.7</p>
-            </SwiperSlide>
+            
             <SwiperSlide>
                 <iframe className='yt-video' src="https://www.youtube.com/embed/orf7l6EXics?si=mG445-NTe0opA2RS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <p className='video-text'>Szymanowski - Don Juan Serenade from Masques op.34</p>
