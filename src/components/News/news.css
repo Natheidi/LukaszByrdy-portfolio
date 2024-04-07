@@ -42,14 +42,12 @@
 }
 
 .info {
-  color: #000;
+  color: #fff;
   font-size: 30px;
   font-weight: 300;
   margin-right: auto;
   margin-left: auto;
   margin-top: 230px;
-  border: #9b793e 5px solid;
-  background-color: #fff;
   padding: 60px;
   opacity: 0.5;
 }
