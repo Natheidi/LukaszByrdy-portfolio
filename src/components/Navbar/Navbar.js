@@ -49,7 +49,7 @@ const Navbar = () => {
             <div className='nav-section'>
                 <div className='logo-line'>
                     <a href='#hero-section' className='active' onClick={() => onLogoClick()}>
-                        <img className='logo' src={require('../../assets/img/logo_byrdy_new.jpg')} alt='logo' />
+                        <img className='logo' src={require('../../assets/img/logo_byrdy_new.png')} alt='logo' />
                     </a>
                 </div>
 
