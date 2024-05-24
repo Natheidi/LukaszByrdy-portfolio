@@ -27,7 +27,7 @@
     color: #fff;
     font-family: "PerpetuaTitlingMTLight2";
 }
-
+/*
 .h-title-contact::after {
     display: block;
     position: absolute;
@@ -42,6 +42,7 @@
     z-index: -1;
     opacity: 0.4;
 }
+*/
 
 .contact-img {
     border-radius: 100%;

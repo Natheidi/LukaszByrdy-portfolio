@@ -17,6 +17,7 @@
     font-family: "PerpetuaTitlingMTLight2";
 }
 
+/*
 .h-title-media::after{
   display: block;
   position: absolute;
@@ -31,6 +32,7 @@
   z-index: -1;
   opacity: 0.4;
 }
+*/
 
 .swiper{
   max-width: 900px;
