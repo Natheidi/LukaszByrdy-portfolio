@@ -10,6 +10,7 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    justify-content: flex-start;
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 70px;
@@ -19,12 +20,11 @@
 .h-title-disc {
     font-size: 70px;
     font-weight: 100;
-    position: relative;
-    z-index: 1;
-    color: #fff;
-    margin: 0;
-    margin-bottom: 70px;
     font-family: "PerpetuaTitlingMTLight2";
+    margin-top: 30;
+    margin-bottom: 0;
+    color: #c0c0c0;
+    text-align: left;
 }
 
 /*
@@ -47,6 +47,7 @@
 .cd-flex {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .cd-container {
@@ -54,7 +55,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -110,15 +111,15 @@
     opacity: 0.8;
 }
 
-.title-playlist{
+.title-playlist {
     color: #fff;
     font-size: 20px;
     font-weight: 300;
-    margin-block: 0!important;
+    margin-block: 0 !important;
     text-align: start;
 }
 
-.title-playlist2{
+.title-playlist2 {
     color: #9b793e;
     font-size: 18px;
     font-weight: 400;
@@ -126,7 +127,7 @@
     text-align: start;
 }
 
-.audio-text{
+.audio-text {
     color: #fff;
     font-size: 15px;
     font-weight: 500;
@@ -134,70 +135,69 @@
     text-align: left;
 }
 
-.audio-small-section{
+.audio-small-section {
     margin-top: 50px;
+    justify-content: flex-start;
 }
 
-.line{
-   width: 100%;
+.line {
+    width: 100%;
 }
 
-@media (max-width: 1000px){
-   .h-title-disc{
-    font-size: 60px;
-    margin-top: 50px;
-   }
+@media (max-width: 1000px) {
+    .h-title-disc {
+        font-size: 60px;
+        margin-top: 50px;
+    }
 }
 
-@media (max-width: 700px){
-    .disc-container{
+@media (max-width: 700px) {
+    .disc-container {
         justify-content: center;
         text-align: center;
         align-items: center;
     }
 
-    .text-c{
+    .text-c {
         text-align: center;
         font-weight: 500;
         font-size: 18px;
     }
 
-    .audio-small-section{
+    .audio-small-section {
         text-align: center;
     }
 
-    .cd-container{
+    .cd-container {
         padding-top: 10px;
     }
 
-    .title-playlist{
+    .title-playlist {
         text-align: center;
         font-size: 15px;
     }
 
-    .title-playlist2{
+    .title-playlist2 {
         text-align: center;
         font-size: 10px;
     }
 
-    .audio-text{
+    .audio-text {
         text-align: center;
     }
 
-   .audio-clips{
-    width: 90%;
-   }
+    .audio-clips {
+        width: 90%;
+    }
 }
 
 @media (max-width: 500px) {
-    .h-title-disc{
+    .h-title-disc {
         font-size: 30px;
     }
 
-    .h-title-disc::after{
+    .h-title-disc::after {
         width: 40px;
         height: 40px;
     }
-  }
-
-
+}

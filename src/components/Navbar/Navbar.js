@@ -60,13 +60,13 @@ const Navbar = () => {
                     <li><a href='#media' onClick={(e) => selectActivePage(e.target)}>{t('navbar.media')}</a></li>
                     <li><a href='#news' onClick={(e) => selectActivePage(e.target)}>{t('navbar.news')}</a></li>
                     <li><a href='#contact' onClick={(e) => selectActivePage(e.target)}>{t('navbar.contact')}</a></li>
-
-                    <div className='btn-lang-container'>
-                        <button className='btn-lang' onClick={() => handleChangeLanguage("en")}>EN</button>
-                        <button className='btn-lang' onClick={() => handleChangeLanguage("pl")}>PL</button>
-                        <button className='btn-lang' onClick={() => handleChangeLanguage("de")}>DE</button>
-                    </div>
                 </ul>
+                <div className='btn-lang-container nav-items'>
+                    <button className='btn-lang' onClick={() => handleChangeLanguage("en")}>EN</button>
+                    <button className='btn-lang' onClick={() => handleChangeLanguage("pl")}>PL</button>
+                    <button className='btn-lang' onClick={() => handleChangeLanguage("de")}>DE</button>
+                </div>
+
                 <button class="hamburger-menu" onClick={() => toggleHamburgerMenu()}>
                     <FontAwesomeIcon icon={faBars} className='hamburger-icon' />
                 </button>
