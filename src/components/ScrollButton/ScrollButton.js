@@ -13,7 +13,8 @@ const ScrollButton = () => {
   };
 
   return (
-    <Link to="top" smooth={true} duration={500} onClick={scrollToTop}>
+    <Link to="navbar.about" smooth={true} duration={500} onClick={scrollToTop}>
+    {/* <Link to="top" smooth={true} duration={500} onClick={scrollToTop}> */}
       <FontAwesomeIcon icon = { faArrowUp } className='icon-up'/>
     </Link>
   );

@@ -7,8 +7,6 @@
   top: 0;
   z-index: 100;
   font-size: 16px;
-  display: flex;
-  justify-content: space-around;
 }
 
 .nav-section {
@@ -44,10 +42,6 @@
 .nav li a:hover {
   background-color: #f8f7f2;
   color: #45464B;
-}
-
-.nav li a.active {
-  color: #222220;
 }
 
 .logo {
@@ -103,7 +97,8 @@
     border: none;
   }
 
-  .nav ul {
+  .nav ul,
+  .nav .btn-lang-container {
     display: none;
   }
 
@@ -112,12 +107,14 @@
   }
 
   .btn-lang-container {
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 10px;
   }
 
   .nav-section {
     width: 90%;
+    flex-wrap: wrap;
   }
 
   .nav-items {

@@ -35,7 +35,11 @@ const Navbar = () => {
         );
 
         el.classList.add('active');
+    };
 
+    const scrollToSection = (selector) => {
+        const element = document.querySelector(selector);
+        element.scrollIntoView({ behavior: 'smooth' });
     };
 
     const onLogoClick = () => {
@@ -48,25 +52,24 @@ const Navbar = () => {
         <div className='nav'>
             <div className='nav-section'>
                 <div className='logo-line'>
-                    <a href='#hero-section' className='active' onClick={() => onLogoClick()}>
+                    <a href='javascript:void(0)' className='active' onClick={() => scrollToSection("#hero-section")}>
                         <img className='logo' src={require('../../assets/img/logo_byrdy_new.png')} alt='logo' />
                     </a>
                 </div>
 
                 <ul className='nav-items'>
-                    <li><a href='#hero-section' className='active home-item' onClick={(e) => selectActivePage(e.target)}>{t('navbar.home')}</a></li>
-                    <li><a href='#about-section' onClick={(e) => selectActivePage(e.target)}>{t('navbar.about')}</a></li>
-                    <li><a href='#disc' onClick={(e) => selectActivePage(e.target)}>{t('navbar.discography')}</a></li>
-                    <li><a href='#media' onClick={(e) => selectActivePage(e.target)}>{t('navbar.media')}</a></li>
-                    <li><a href='#news' onClick={(e) => selectActivePage(e.target)}>{t('navbar.news')}</a></li>
-                    <li><a href='#contact' onClick={(e) => selectActivePage(e.target)}>{t('navbar.contact')}</a></li>
+                    <li><a href='javascript:void(0)' className='active home-item' onClick={(e) => scrollToSection("#hero-section")}>{t('navbar.home')}</a></li>
+                    <li><a href='javascript:void(0)' onClick={(e) => scrollToSection("#about-section")}>{t('navbar.about')}</a></li>
+                    <li><a href='javascript:void(0)' onClick={(e) => scrollToSection("#disc")}>{t('navbar.discography')}</a></li>
+                    <li><a href='javascript:void(0)' onClick={(e) => scrollToSection("#media")}>{t('navbar.media')}</a></li>
+                    <li><a href='javascript:void(0)' onClick={(e) => scrollToSection("#news")}>{t('navbar.news')}</a></li>
+                    <li><a href='javascript:void(0)' onClick={(e) => scrollToSection("#contact")}>{t('navbar.contact')}</a></li>
                 </ul>
-                <div className='btn-lang-container nav-items'>
+                <div className='btn-lang-container'>
                     <button className='btn-lang' onClick={() => handleChangeLanguage("en")}>EN</button>
                     <button className='btn-lang' onClick={() => handleChangeLanguage("pl")}>PL</button>
                     <button className='btn-lang' onClick={() => handleChangeLanguage("de")}>DE</button>
                 </div>
-
                 <button class="hamburger-menu" onClick={() => toggleHamburgerMenu()}>
                     <FontAwesomeIcon icon={faBars} className='hamburger-icon' />
                 </button>
