@@ -29,23 +29,10 @@ const Navbar = () => {
 
     };
 
-    const selectActivePage = (el) => {
-        document.querySelectorAll(".nav-section li a").forEach(element =>
-            element.classList.remove('active')
-        );
-
-        el.classList.add('active');
-    };
-
     const scrollToSection = (selector) => {
         const element = document.querySelector(selector);
         element.scrollIntoView({ behavior: 'smooth' });
     };
-
-    const onLogoClick = () => {
-        const homeItem = document.querySelector('.nav-section li .home-item');
-        selectActivePage(homeItem);
-    }
 
     return (
 
