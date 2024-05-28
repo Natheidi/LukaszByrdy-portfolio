@@ -162,8 +162,7 @@
 
 @media (max-width: 1000px) {
     .h-title-disc {
-        font-size: 60px;
-        margin-top: 50px;
+        font-size: 55px;
     }
 
     .title-playlist2 {
@@ -199,10 +198,6 @@
         text-align: center;
     }
 
-    .cd-container {
-        padding-top: 10px;
-    }
-
     .title-playlist {
         text-align: center;
         font-size: 15px;
@@ -220,11 +215,15 @@
     .audio-clips {
         width: 90%;
     }
+
+    .altra-volta{
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 500px) {
     .h-title-disc {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .h-title-disc::after {

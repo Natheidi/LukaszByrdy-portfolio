@@ -83,10 +83,17 @@
     color: #9b793e;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
+    .h-title-contact {
+        font-size: 55px;
+    }
+
+
+}
+
+@media (max-width: 700px) {
 
     .contact-container {
-        justify-content: center;
         align-items: center;
     }
 
@@ -98,7 +105,7 @@
 
 @media (max-width: 500px) {
     .h-title-contact {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .h-title-contact::after {
@@ -107,18 +114,15 @@
     }
 
     .title-contact {
-        font: 20px;
-    }
-
-    .contact-p {
         font-size: 20px;
     }
 
-    .contact-h {
-        font-size: 25px;
+    .contact-p {
+        font-size: 15px;
     }
 
-    .contact-container{
-        padding-bottom: 30px;
+    .contact-h {
+        font-size: 18px;
     }
+
 }

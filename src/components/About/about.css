@@ -98,8 +98,7 @@ span {
     }
 
     .h-title3 {
-        margin-top: 50px;
-        font-size: 60px;
+        font-size: 55px;
     }
 
     .img-container {
@@ -139,7 +138,7 @@ span {
 
 @media (max-width: 500px) {
     .h-title3 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .h-title3::after {
