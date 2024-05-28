@@ -19,7 +19,7 @@ function App() {
       <About />
       <Disc />
       <Media />
-      <News />
+      {/* <News /> */}
       <Contact />
       <Footer />
     </div>

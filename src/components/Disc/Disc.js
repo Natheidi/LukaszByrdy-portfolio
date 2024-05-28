@@ -26,9 +26,9 @@ const Disc = () => {
                     </div>
 
                 </div>
-                <div className='audio-section1'>
+                <h4 className='title-playlist'>{t('disc.playlist')}</h4>
+                <div className='audio-section'>
                     <div className='audio-small-section'>
-                        <h4 className='title-playlist'>{t('disc.playlist')}</h4>
                         <h4 className='title-playlist2'>WOLFGANG AMADEUSZ  MOZART – CONCERTO KV 488</h4>
 
                         <p className='audio-text'>MOZART I</p>

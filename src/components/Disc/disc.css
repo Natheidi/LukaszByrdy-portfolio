@@ -102,7 +102,10 @@
 }
 
 .audio-section {
-    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
 }
 
 .audio-clips {
@@ -112,11 +115,14 @@
 }
 
 .title-playlist {
+    display: block;
+    margin-top: 50px;
     color: #fff;
     font-size: 20px;
     font-weight: 300;
-    margin-block: 0 !important;
     text-align: start;
+    width: 100%;
+    justify-content: center;
 }
 
 .title-playlist2 {
@@ -125,6 +131,7 @@
     font-weight: 400;
     font-style: italic;
     text-align: start;
+    text-align: center;
 }
 
 .audio-text {
@@ -136,18 +143,42 @@
 }
 
 .audio-small-section {
-    margin-top: 50px;
     justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .line {
     width: 100%;
+    display: none;
+}
+
+@media (max-width: 1400px) {
+    .title-playlist2 {
+        width: 320px;
+    }
 }
 
 @media (max-width: 1000px) {
     .h-title-disc {
         font-size: 60px;
         margin-top: 50px;
+    }
+
+    .title-playlist2 {
+        width: auto;
+    }
+
+    .line {
+        display: block;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .audio-section {
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
 
@@ -179,7 +210,7 @@
 
     .title-playlist2 {
         text-align: center;
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .audio-text {

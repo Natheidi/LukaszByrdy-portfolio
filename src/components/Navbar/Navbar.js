@@ -62,7 +62,7 @@ const Navbar = () => {
                     <li><a href='javascript:void(0)' onClick={(e) => scrollToSection("#about-section")}>{t('navbar.about')}</a></li>
                     <li><a href='javascript:void(0)' onClick={(e) => scrollToSection("#disc")}>{t('navbar.discography')}</a></li>
                     <li><a href='javascript:void(0)' onClick={(e) => scrollToSection("#media")}>{t('navbar.media')}</a></li>
-                    <li><a href='javascript:void(0)' onClick={(e) => scrollToSection("#news")}>{t('navbar.news')}</a></li>
+                    {/* <li><a href='javascript:void(0)' onClick={(e) => scrollToSection("#news")}>{t('navbar.news')}</a></li> */}
                     <li><a href='javascript:void(0)' onClick={(e) => scrollToSection("#contact")}>{t('navbar.contact')}</a></li>
                 </ul>
                 <div className='btn-lang-container'>
