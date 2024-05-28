@@ -23,6 +23,7 @@ const Hero = () => {
                     <a href='https://www.instagram.com/lukaszbyrdy/' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faInstagram} className='icon-style insta'></FontAwesomeIcon></a>
                 </div>
             </div>
+            <div className='hero-overlay'></div>
         </div>
 
     )
