@@ -11,7 +11,7 @@ const About = () => {
                     {t('about.h3')}
                 </h3>
                 <div className='img-container'>
-                    <img className='about-img' src={require('../../assets/img/DSC_8981-2.jpg')} alt='portrait' />
+                    <img className='about-img' src={require('../../assets/img/DSC_8981-2.webp')} alt='portrait' />
                     {/* <p className='about-text'>
                         {t('about.about-text')}
                     </p> */}

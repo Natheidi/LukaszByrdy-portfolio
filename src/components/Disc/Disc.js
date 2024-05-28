@@ -11,8 +11,8 @@ const Disc = () => {
                 </h3>
                 <div className='cd-flex'>
                     <div className='cd-container'>
-                        <img className='cd-img' src={require('../../assets/img/cd.jpg')} alt='cd' />
-                        <img className='cd-img' src={require('../../assets/img/cd2.jpg')} alt='cd' />
+                        <img className='cd-img' src={require('../../assets/img/cd.webp')} alt='cd' />
+                        <img className='cd-img' src={require('../../assets/img/cd2.webp')} alt='cd' />
                     </div>
                     <div className='text-c'>
                         {t('disc.cd-text')}
