@@ -45,10 +45,10 @@ const SwiperComponent = () => {
 
             <SwiperSlide>
                 <iframe className='yt-video' src="https://www.youtube.com/watch?v=NDTbjbL5ymA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p className='video-text'>Chopin Concerts in Łazienki Królewskie 2021</p>
+                <p className='video-text'>Chopin Concerts in Łazienki Królewskie2021</p>
             </SwiperSlide>
             <SwiperSlide>
-                <iframe className='yt-video' src="https://www.youtube.com/watch?v=CuU4XkZw8II" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe className='yt-video' src="https://www.youtube.com/embed/NDTbjbL5ymA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <p className='video-text'>Saturday Chopin Recitals in Żelazowa Wola</p>
             </SwiperSlide>
 
