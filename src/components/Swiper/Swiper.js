@@ -28,7 +28,10 @@ const SwiperComponent = () => {
                 <iframe className='yt-video' src="https://www.youtube.com/embed/G4D7UJywdP0?si=3o8RnceNB9l739p0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <p className='video-text'>Szymanowski - Tantris the Clown from Masques op. 34</p>
             </SwiperSlide>
-          
+            <SwiperSlide>
+                <iframe className='yt-video' src="https://www.youtube.com/embed/3ZPMISEIEGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p className='video-text'>Mussorgsky - Pictures at an Exhibition</p>
+            </SwiperSlide>
 
             <SwiperSlide>
                 <iframe className='yt-video' src="https://www.youtube.com/watch?v=DWZ0Ls8JQaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -58,10 +61,7 @@ const SwiperComponent = () => {
 
 
 
-            <SwiperSlide>
-                <iframe className='yt-video' src="https://www.youtube.com/watch?v=3ZPMISEIEGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p className='video-text'>Mussorgsky - Pictures at an Exhibition</p>
-            </SwiperSlide>
+          
             ...
         </Swiper>
     );
