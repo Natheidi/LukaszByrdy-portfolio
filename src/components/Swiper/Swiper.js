@@ -34,20 +34,20 @@ const SwiperComponent = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-                <iframe className='yt-video' src="https://www.youtube.com/watch?v=DWZ0Ls8JQaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe className='yt-video' src="https://www.youtube.com/embed/DWZ0Ls8JQaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <p className='video-text'>Chopin - Andante Spianato and Grande Polonaise Brillante in E flat major Op. 22</p>
             </SwiperSlide>
             <SwiperSlide>
-                <iframe className='yt-video' src="https://www.youtube.com/watch?v=0cGek8uQjXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe className='yt-video' src="https://www.youtube.com/embed/0cGek8uQjXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <p className='video-text'>Chopin - Scherzo in C sharp minor Op. 39</p>
             </SwiperSlide>
             <SwiperSlide>
-                <iframe className='yt-video' src="https://www.youtube.com/watch?v=OZxePyoeCQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe className='yt-video' src="https://www.youtube.com/embed/OZxePyoeCQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <p className='video-text'>Chopin - Etude in F major Op. 10 No. 8</p>
             </SwiperSlide>
 
             <SwiperSlide>
-                <iframe className='yt-video' src="https://www.youtube.com/watch?v=NDTbjbL5ymA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe className='yt-video' src="https://www.youtube.com/embed/NDTbjbL5ymA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <p className='video-text'>Chopin Concerts in Łazienki Królewskie2021</p>
             </SwiperSlide>
             <SwiperSlide>
