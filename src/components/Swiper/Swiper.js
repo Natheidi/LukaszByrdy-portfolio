@@ -19,12 +19,43 @@ const SwiperComponent = () => {
             onSlideChange={() => console.log('slide change')}
         >
 
-            
-     
-           
+
+
+
             <SwiperSlide>
-                <iframe className='yt-video' src="https://www.youtube.com/embed/DWZ0Ls8JQaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p className='video-text'>Chopin - Andante Spianato and Grande Polonaise Brillante in E flat major Op. 22</p>
+                <div className="aspect-video w-full">
+                    <iframe
+                        className="yt-video"
+                        src="https://www.youtube.com/embed/DWZ0Ls8JQaU?rel=0&modestbranding=1&playsinline=1"
+                        title="Chopin - Andante Spianato and Grande Polonaise Brillante, Op. 22"
+                        frameBorder="0"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        referrerPolicy="strict-origin-when-cross-origin"
+                    />
+                </div>
+
+                <p className="video-text">
+                    Chopin - Andante Spianato and Grande Polonaise Brillante in E flat major Op. 22
+                </p>
+            </SwiperSlide><SwiperSlide>
+                <div className="aspect-video w-full">
+                    <iframe
+                        className="yt-video"
+                        src="https://www.youtube.com/embed/DWZ0Ls8JQaU?rel=0&modestbranding=1&playsinline=1"
+                        title="Chopin - Andante Spianato and Grande Polonaise Brillante, Op. 22"
+                        frameBorder="0"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        referrerPolicy="strict-origin-when-cross-origin"
+                    />
+                </div>
+
+                <p className="video-text">
+                    Chopin - Andante Spianato and Grande Polonaise Brillante in E flat major Op. 22
+                </p>
             </SwiperSlide>
             <SwiperSlide>
                 <iframe className='yt-video' src="https://www.youtube.com/embed/0cGek8uQjXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -59,7 +90,7 @@ const SwiperComponent = () => {
 
 
 
-          
+
             ...
         </Swiper>
     );
